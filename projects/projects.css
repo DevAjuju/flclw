@@ -1,0 +1,81 @@
+@import url(/index/index.css);
+body{
+    background-color: black;
+    color: white;
+}
+.TitleSection{
+    background-image: url(/elements/pic/chasing-you-j7-1366x768.jpg);
+}.TitleOverlay{
+    background-color: rgba(0, 0, 0, 0.85);
+    min-height: 100vh;
+} 
+.title h1{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+span{
+    font-size: 3.5rem;
+}.mainProjectsSection{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/elements/pic/socials.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}.projectsContainer{
+    width: 80%;
+    margin: 0 auto;
+
+}.projectsCard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+    margin: 5% 2rem;
+    box-shadow: 2px 2px 5px black;
+}
+.cardText{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0rem 2%;
+}
+.view{
+    width: 40%;
+    padding: 1rem;
+    border: none;
+    margin: 5% auto;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: .5rem;
+    transition: 2ms;
+}.view:hover{
+    background-color: white;
+    color: black;
+}
+.mainProjectsSectionTitle{
+    color: palevioletred;
+    padding: 2rem 0rem;
+    opacity: 60%;
+    text-decoration: underline;
+}
+@media (max-width: 650px) {
+    .projectsContainer{
+        width: 90%;
+    }
+    .projectsCard{
+        flex-direction: column;
+    }.cardText{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

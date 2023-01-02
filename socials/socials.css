@@ -1,0 +1,68 @@
+@import url(/index/index.css);
+body{
+    background-image: url(/elements/pic/newyork-city-minimalism-4p-1366x768.jpg);
+
+}
+a{
+    color: white;
+}
+.socialsContainer{
+    margin: 3rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}.socialsCard{
+    width: 35%;
+    background-color: rgba(6, 6, 77, 0.8);
+    min-height: 10rem;
+    margin: 1.5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.socialsCard:hover{
+    background-color: rgb(6, 6, 50);
+}
+#yt{
+    box-shadow: 5px 5px 2px red;
+}
+#twitter{
+    box-shadow: 5px 5px 2px cyan;
+}
+#insta{
+    box-shadow: 5px 5px 2px hotpink;
+}
+#fb{
+    box-shadow: 5px 5px 2px blue;
+}
+#tiktok{
+    box-shadow: 5px 5px 2px rgb(0, 0, 7);
+}
+.officialSocialsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}.officialSocialsContainer p{
+    width: 45%;
+    padding: .5rem 0rem;
+    margin: 1rem auto;
+    border-radius: .5rem;
+}#mail{background-color: white;}
+#number{background-color: palevioletred;}
+
+@media (max-width: 1000px) {
+    .socialsCard{
+        width: 80%;
+    }
+    .officialSocialsContainer{
+        flex-direction: column;
+    }.officialSocialsContainer p{
+        width: 80%;
+        margin: 1rem auto;
+    }
+    body{
+        background-image: url(/elements/pic/newyork-city-minimalism-4p-1366x768.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
