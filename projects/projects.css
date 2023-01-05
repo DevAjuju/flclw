@@ -50,18 +50,13 @@ span{
     padding: 0rem 2%;
 }
 .view{
-    width: 40%;
-    padding: 1rem;
-    border: none;
-    margin: 5% auto;
     background-color: black;
     color: white;
-    cursor: pointer;
+    width: 40%;
+    padding: 1rem;
     border-radius: .5rem;
-    transition: 2ms;
-}.view:hover{
-    background-color: white;
-    color: black;
+    text-align: center;
+    margin: 1rem auto;
 }
 .mainProjectsSectionTitle{
     color: palevioletred;
@@ -78,5 +73,7 @@ span{
     }.cardText{
         width: 90%;
         margin: 0 auto;
+    }.view{
+        width: 60%;
     }
 }
